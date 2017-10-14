@@ -21,7 +21,7 @@ public class Histogram <T> {
 
         for (T value : miVector) {
             if (!histo.containsKey(value)) {
-                histo.put(value, 0);
+                histo.put(value, 0); 
             }
             histo.put(value, histo.get(value) + 1);
         }
